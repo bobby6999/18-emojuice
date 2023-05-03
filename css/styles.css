@@ -21,16 +21,33 @@ h1 {
 header {
   color:#57bb6b;
   font-family: 'Quattrocento';
-  background-image: url(/Users/machadomaria/Desktop/frontend/Sites/18-emojuice/img/bckgrnd.png);
+  background-image: url(../img/bckgrnd.png);
+  background-size: cover;
+  padding: 30px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cta-dark {
+  padding: 10px 20px;
+  margin: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
   font-family:'Maven Pro';
   background-color:#57bb6b;
 }
 
 .cta-light {
-  background-color: #FEFEFE;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #fefefed4;
+  font-family:'Maven Pro';
 }
 
 p .cta-container {
@@ -39,3 +56,59 @@ p .cta-container {
   align-items: center;
   font-family: 'Quattrocento';
 }
+
+h2 {
+  font-family: 'Maven Pro', sans-serif; 
+}
+
+.section-light {
+  background-color: #ffffff;  
+}
+
+.section-light p {
+  font-family: 'Quattrocento', serif;
+}
+
+.fruits {
+  display:flex;
+  flex-direction:row;
+  max-width: 27px;
+  align-content: space-around;
+}
+
+.section-dark {
+  background-color: #57bb6b;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
+}
+
+.section-dark p {
+  font-family: 'Quattrocento', serif;
+  color: #000000ad;
+}
+
+a {
+  font-family:'Maven Pro';
+}
+
+.card {
+  color: #060E17;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.banana{
+  background-color: #fff8d7;
+}
+.kiwi {
+  background-color: #c4f2ad;
+}
+.
