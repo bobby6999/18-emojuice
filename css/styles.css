@@ -165,26 +165,26 @@ footer p  {
 }
 
 .cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
   background-color: #57bb6b;
   color:#FEFEFE;
+  border-radius: 15px;
+  margin-bottom: 20px;
   padding: 15px;
-  border-radius: 5px;
-  margin: 10px 20px;
-  display: flex;
-  justify-content: center;
+
 }
 
 .cta .mail {
-  margin: 0 100px 20px 100;
-  background-color: #57bb6b;
-  color:#FEFEFE;
-  padding: 15px;
-  border-radius: 5px;
-  margin: 10px 20px;
-  display: flex;
-  justify-content: center;
+  margin: 0 100px 0 100px;
 }
 
 .cta .insta {
-  margin: 0 170px 20px 170px;
+  margin: 0 180px 0 180px;
+}
+
+.cta .facebook {
+  margin: 0 190px 0 190px;
 }
